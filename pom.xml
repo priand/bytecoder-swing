@@ -49,7 +49,11 @@
 	            <artifactId>bytecoder-mavenplugin</artifactId>
 	            <version>${bytecoder.version}</version>
 	            <configuration>
-	                <mainClass>demo.Main</mainClass>
+                    <!--
+	                <mainClass>demo.MainConsole</mainClass>
+	                <mainClass>demo.MainFrame</mainClass>
+                    -->
+	                <mainClass>demo.MainFrame</mainClass>
 	                <backend>js</backend>
 	                <enableExceptionHandling>true</enableExceptionHandling>
 	                <optimizationLevel>ALL</optimizationLevel>
